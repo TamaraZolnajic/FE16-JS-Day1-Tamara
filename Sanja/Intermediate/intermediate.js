@@ -19,3 +19,12 @@ document.write("<br/>");
 
 var animal = ['monkey', 'horse', 'dog'];
 console.log(animal.sort());
+document.write("<br/>");
+animal.splice(0, 0, 'cat');
+console.log(animal);
+
+let sep = "mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
+let separate = sep.split("/")
+console.log(separate);
+
+document.write("mango \n <br/> cherries \n <br/> kiwi \n <br/> grapes \n <br/> pear \n <br/> peach \n <br/> orange \n <br/> lemon");
